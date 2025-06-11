@@ -9,7 +9,7 @@ A customizable tile component for Streamlit apps that provides a button-like int
 - **Responsive design**: Built with Tailwind CSS for modern styling
 - **Interactive feedback**: Hover and click animations
 - **Easy integration**: Works seamlessly with Streamlit's component system
-- **Demo**: [https://st-tile.streamlit.app/](App)
+- **Demo**: [App](https://st-tile.streamlit.app/)
 
 ## Usage
 
