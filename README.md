@@ -13,6 +13,12 @@ A customizable tile component for Streamlit apps that provides a button-like int
 
 ## Usage
 
+### Installation
+
+```bash
+pip install streamlit-tile
+```
+
 ### Basic Usage
 
 ```python
