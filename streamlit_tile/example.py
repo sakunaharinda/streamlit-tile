@@ -22,7 +22,7 @@ if __name__ == "__main__":
     )
     height = st.sidebar.slider("Height (px)", 150, 400, 200)
     width = st.sidebar.selectbox("Width (px)", ["responsive", "full", 250, 300, 400, 500])
-    
+    label = st.sidebar.text_input("Label", "Let's Go!")
     
     # Demo section
     st.header("Single Tile Demo")
@@ -31,10 +31,10 @@ if __name__ == "__main__":
     
     with col2:
         clicked = streamlit_tile(
-            label="Let's Go!",
+            label=label,
             title=title,
             description=description,
-            icon="article",
+            icon=icon,
             color_theme=color_theme,
             height=height,
             width=width,
@@ -44,7 +44,6 @@ if __name__ == "__main__":
         if st.session_state.demo_tile:
             st.success(f"🎉 Tile '{title}' was clicked!")
             
-    st.write(st.session_state)
     
     st.markdown("---")
     
